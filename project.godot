@@ -1,0 +1,20 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+; Format:
+;   [section] ; section goes between square brackets
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="ConyLies Puzzle"
+run/main_scene="res://Main.tscn"
+config/features=PackedStringArray("4.2", "GL Compatibility")
+
+[display]
+
+window/size/viewport_width=900
+window/size/viewport_height=600
+window/size/mode=2
